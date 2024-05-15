@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator Results</title>
+  <link rel="stylesheet" type="text/css" href="calculation.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Results</h1>
+    <div class="result">
+      <p><strong>BMI:</strong> <span id="bmiResult"></span></p>
+      <p><strong>Maximum Heart Rate:</strong> <span id="maxHeartRateResult"></span></p>
+      <p><strong>BMR:</strong> <span id="bmrResult"></span></p>
+      <p><strong>Ideal Weight:</strong> <span id="idealWeightResult"></span></p>
+    </div>
+  </div>
+
+  <script src="results.js"></script>
+  <style type="text/css">
+
+    body{
+      background-color: #222;
+    }
+    .greeting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="number"],
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  margin: 10px 0;
+}
+
+.result strong {
+  font-weight: bold;
+}
+.backbutton{
+  width: 200px;
+}
+  </style>
+</body>
+</html>
